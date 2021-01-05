@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clear-div{
+    clear: both;
+}
+/* nav section starts */
+.navbar{
+    float: right;
+    padding: 20px;
+    margin-right: 130px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #3C3C3C;
+    font-size: 16px;
+    padding: 20px;
+ 
+}
+/* nav section ends */
+
+/* hire me section starts  */
+.left-side{
+    float: left;
+    width: 30%;
+    margin: 0 6%;
+}
+.left-side h1{
+    color: #363958;
+    font-size: 3.5rem;
+    margin-top: 120px;
+}
+.hire-span{
+    color: #FF8367;
+}
+.left-side p{
+    color: #3E3E3E;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 395px;
+    text-align: justify;
+    margin-bottom: 50px;
+
+}
+
+.right-side{
+    float: left;
+    width: 48%;
+    margin: 0 4%;
+}
+.right-side img{
+    width: 70%;
+    margin-top: 62px;
+    margin-left: 65px;
+}
+
+.hire-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+/* hire me section ends */
+
+/* project section starts */
+.latest{
+    background-color: #F8F9FC;
+}
+.latest p{
+    font-size: 2.3rem;
+    padding: 100px;
+    text-align: center;
+}
+.project-span{
+    color: #F46060;
+}
+.box-container{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #F8F9FC;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    width:350px;
+    margin: 15px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 25px;
+}
+.box-body{
+    padding: 5px;
+}
+
+.img-style{
+    width: 350px;
+    cursor: pointer;
+}
+.box-title{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box-description{
+    margin-top: 10px;
+    padding: 5px;
+    text-align: justify;
+}
+/* project section ends */
+
+/* inquIry section starts  */
+.inquiry-sec{
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    background-image: url("shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 850px;
+    height: 215px;
+}
+
+.chat-btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+   text-align: center;
+    padding: 15px 25px;
+    margin: 81px 332px;
+    float: right;
+    border-radius: 10px;
+}
+.work{
+    margin: -127px 315px;
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+}
+/* inquiry section ends */
